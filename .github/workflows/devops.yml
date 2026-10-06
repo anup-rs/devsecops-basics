@@ -21,7 +21,7 @@ jobs:
         uses: docker/login-action@v4   #action
 
       - name: Setup
-        uses: docker/setup-buildx-action@v4   #action
+        run: echo "Builed"  #action
         
   test:
     needs: build
