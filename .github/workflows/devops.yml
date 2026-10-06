@@ -18,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Build
-        uses: docker/login-action@v4   #action
+        run: echo "Build 1"
+        # uses: docker/login-action@v4   #action
 
       - name: Setup
         run: echo "Builed"  #action
